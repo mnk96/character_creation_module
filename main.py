@@ -60,8 +60,6 @@ def choice_char_class():
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
-        print('Введи название персонажа, за которого хочешь играть:')
-        print('Воитель — warrior, Маг — mage, Лекарь — healer:')
         char_class = input('Введи название персонажа, '
                            'за которого хочешь играть:'
                            'Воитель — warrior, Маг — mage, Лекарь — healer:')
